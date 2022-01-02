@@ -12,5 +12,7 @@
   strh r4, [ r3, #4 ]
   strh r4, [ r3, #8 ]
   strh r4, [ r3, #12 ]
+  strh r4, [ r3, #16 ]
+  strh r4, [ r3, #20 ]
 loop:
   b loop
